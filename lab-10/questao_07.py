@@ -11,7 +11,7 @@ for jogos in range(cont):
         lose += 1
     else:
         draw += 1
-    print ('Vitorias :', win)
-    print('Empate :', draw)
-    print('Derrotas :', lose)
-    print('Pontução:', (win*3)+(lose*0)+(draw*1))
+print ('Vitorias :', win)
+print('Empate :', draw)
+print('Derrotas :', lose)
+print('Pontução:', (win*3)+(lose*0)+(draw*1))
