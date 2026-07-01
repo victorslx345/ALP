@@ -30,7 +30,10 @@ while True:
     else:
         pts2 += 5
         print ('Jogador 2 ganhou 5 pontos!!')
-# falta fazer o sistema de acabar com 50 pts
+    if pts1 >= 50:
+        print('JOGADOR 1 VENCEU!')
+    elif pts2 >= 50:
+        print('JOGADOR 2 VENCEU!')
     
     
     
